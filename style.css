@@ -1,75 +1,75 @@
-                            @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Quicksand&family=Titillium+Web:wght@200&family=Tomorrow:wght@200&display=swap');
-                            *,
-                            *:before,
-                            *:after {
-                                box-sizing: inherit;
-                            }
-                            
-                            * {
-                                font-family: 'Courier New', Courier, monospace;
-                                padding: 0;
-                            }
-                            
-                            body {
-                                background-color: #36416b;
-                                color: floralwhite;
-                            }
-                            
-                            code {
-                                font-size: 12px;
-                            }
-                            
-                            a {
-                                color: #ffcc99;
-                            }
-                            
-                            a:hover {
-                                color: #ffba76;
-                            }
-                            
-                            header {
-                                background: #fff;
-                                padding: 20px;
-                            }
-                            
-                            header h1 {
-                                color: #36416b;
-                                text-align: center;
-                                font-weight: 100;
-                            }
-                            
-                            .score-board {
-                                border: 3px solid#fff;
-                                margin: 40px auto;
-                                font-size: 40px;
-                                border-radius: 5px;
-                                text-align: center;
-                                padding: 15px 20px;
-                                position: relative;
-                            }
-                            
-                            .badge {
-                                background-color: #c65f5f;
-                                text-transform: uppercase;
-                                font-size: 14px;
-                                padding: 10px, 6px;
-                            }
-                            
-                            #user-label {
-                                position: absolute;
-                                top: 50%;
-                                left: -5%;
-                                transform: translate(-10%, -50%);
-                            }
-                            
-                            #computer-label {
-                                position: absolute;
-                                top: 50%;
-                                right: -5%;
-                                transform: translate(10%, -50%);
-                            }
-                            
-                            .result {
-                                font-weight: 300;
-                                text-align: center;
-                            }
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Quicksand&family=Titillium+Web:wght@200&family=Tomorrow:wght@200&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  font-family: "Courier New", Courier, monospace;
+  padding: 0;
+}
+
+body {
+  background-color: #36416b;
+  color: floralwhite;
+}
+
+code {
+  font-size: 12px;
+}
+
+a {
+  color: #ffcc99;
+}
+
+a:hover {
+  color: #ffba76;
+}
+
+header {
+  background: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  color: #36416b;
+  text-align: center;
+  font-weight: 100;
+}
+
+.score-board {
+  border: 3px solid#fff;
+  margin: 40px auto;
+  font-size: 40px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.badge {
+  background-color: #c65f5f;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px, 6px;
+}
+
+#user-label {
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translate(-10%, -50%);
+}
+
+#computer-label {
+  position: absolute;
+  top: 50%;
+  right: -5%;
+  transform: translate(10%, -50%);
+}
+
+.result {
+  font-weight: 300;
+  text-align: center;
+}
