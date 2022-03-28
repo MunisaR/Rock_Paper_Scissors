@@ -58,14 +58,14 @@ header h1 {
 #user-label {
   position: absolute;
   top: 50%;
-  left: -5%;
+  left: -1%;
   transform: translate(-10%, -50%);
 }
 
 #computer-label {
   position: absolute;
   top: 50%;
-  right: -5%;
+  right: -1%;
   transform: translate(10%, -50%);
 }
 
