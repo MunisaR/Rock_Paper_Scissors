@@ -40,7 +40,7 @@ header h1 {
 
 .score-board {
   border: 3px solid#fff;
-  margin: 50px 50px;
+  margin: 50px 500px;
   font-size: 40px;
   border-radius: 5px;
   text-align: center;
@@ -83,6 +83,7 @@ header h1 {
   margin: 0 auto;
   text-align: center;
   padding: 40px 0;
+
 }
 
 .choice {
@@ -92,10 +93,13 @@ header h1 {
   padding: 10px;
   margin: auto 10px;
   transition: all;
+  cursor: pointer;
+
 }
 i {
   /* filter: invert(100%);*/
   color: #36416b;
+  cursor: pointer;
 }
 
 #action-message {
