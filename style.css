@@ -72,4 +72,24 @@ header h1 {
 .result {
   font-weight: 300;
   text-align: center;
+  font-size: 32px;
+  line-height: 40px;
+}
+.result{
+    line-height: 50px;
+}
+
+.choices{
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.choice{
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin: auto 10px;
+    transition: all;
 }
